@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    
+
+
+    <title>Endgame</title>
+</head>
+<body>
+    {% block css_files %}
+    <link rel="stylesheet" href="{% static "blog/valorant.css" %}">
+    {% endblock css_files %}
+    
+    
+    <img class="valorant" src="{% static "blog/images/valorantpng.png" %}" alt="logo" />
+
+    <div class="nav">
+        <img class="logo" src="{% static "blog/images/riot.games.logo.png" %}" alt="logo" />
+      
+            <a class="nav-item currentlink home" href="{% url 'pocetna-stranica' %}" >HOME </a>
+            <a class="nav-item " href="{% url 'community' %}">CHAMPIONS</a>
+            <a class="nav-item  " href="{% url 'support' %}">SUPPORT </a>
+            
+            <span class="hello">Hello, {{request.user}} <br>
+                <a class="logout " href="{% url 'logout' %}">Logout</a>
+            </span> 
+    </div>
+<div class="buttonpoz">
+<a href="https://www.youtube.com/watch?v=e_E9W2vsRbQ" class="button">Play Trailer</a>
+</div>
+
+
+    
+<div class="copyright">
+        <img class="logocopy" src="{% static "blog/images/riot.games.logo.png" %}" alt="logo" />
+        <div class="ikone">
+            <p>Follow us on :</p>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://www.google.com/" class="fa fa-google"></a>
+            
+        </div>
+        <p>©2022 G.I,Valorant, INC. All Rights Reserved</p>
+</div>
+
+
+
+
+    
+
+</body>
+</html>
