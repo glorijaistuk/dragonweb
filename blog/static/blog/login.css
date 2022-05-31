@@ -1,0 +1,66 @@
+
+body,
+html {
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, rgba(255,153,153,0) 0%,rgba(255,153,153,0) 75%,rgb(0, 0, 0) 100%), url("images/valorant\ login.jpg");
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+.user_card {
+    width: 31.25rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #00000098;
+    backdrop-filter: blur(7px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.25rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    margin-top: 14rem;
+
+}
+
+
+.form_container {
+    margin-top: 1.5rem;
+}
+
+#form-title{
+    color: #fff;
+}
+.login_btn {
+    width: 100%;
+    background: #054682 !important;
+    color: white !important;
+}
+.login_btn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+.login_container {
+    padding: 0 2rem;
+}
+.input-group-text {
+    background: #052d63 !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+.mt-4{
+    color: #fff;
+}

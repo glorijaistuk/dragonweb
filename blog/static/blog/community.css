@@ -1,0 +1,239 @@
+.bg-dark{
+  background-color: black;
+}
+
+.nav{
+  height: 5rem;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  background-color: black;
+  
+  
+  
+ 
+  
+
+}
+.logo {
+  padding-top: 1.2rem;
+  padding-left: 1.5rem;
+  width: 7rem;
+  height: auto;
+  float: left;
+  
+}
+
+.logout{
+font-size: 16px;
+padding-top: 0.5rem;
+color: white;
+font-weight: lighter;
+text-decoration-line: none;
+float: right;
+padding-right: 1.2rem;
+font-family: sans-serif;
+
+}
+.hello{
+color: white;
+font-size: 15px;
+padding-top: 1.2rem;
+float: right;
+padding-right: 3rem;
+font-family: sans-serif;
+
+
+}
+/* contact,games... */
+.nav-item{
+  font-size: 15px;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  color: white;
+  font-weight: bold;
+  text-decoration-line: none;
+  float: left;
+  font-family: sans-serif;
+  
+  
+  
+  
+}
+
+
+a:hover{
+  color: rgb(0, 89, 255);
+}
+
+
+.home{
+  padding-left: 2.5rem;
+}
+
+.currentlink {
+  color: rgb(0, 89, 255);
+  
+  
+}
+
+
+
+  body{
+    background-attachment:scroll;
+    background-color:#000000;
+    background-image: linear-gradient(to bottom, rgba(255,153,153,0) 0%,rgba(255,153,153,0) 75%,rgb(0, 0, 0) 100%), url(images/agents.jpg);
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    margin: 0%;
+  }
+
+
+  a:hover{
+    color: rgb(0, 89, 255);
+  }
+  .currentlink {
+    color: rgb(0, 89, 255);
+  }
+
+  .logocopy{
+    padding-top: 5rem;
+    opacity: 70%;
+    width: 7rem;
+    height: auto;
+    float: center;
+    
+  }
+  .copyright{
+    text-align: center;
+    color: rgb(103, 103, 103);
+    margin-top: 10rem;
+    background-color: rgb(0, 0, 0);
+    height: 25rem;
+    font-family: sans-serif;
+    
+    
+    
+  }
+.copyright p{
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.ikone p{
+  padding-bottom: 0rem;
+  font-family: sans-serif;
+}
+.ikone{
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 15px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 20%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #2b2d31;
+  color: white;
+}
+
+.fa-twitter {
+  background: #2b2d31;
+  color: white;
+}
+
+.fa-google {
+  background: #2b2d31;
+  color: white;
+}
+
+.fa-instagram {
+  background: #2b2d31;
+  color: white;
+}
+
+/* link button */
+.gornjired{
+  padding-top: 11rem;
+  
+}
+
+.button {
+  
+  border: none;
+  color: white;
+  padding: 0.938rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+
+.omen{
+  padding-left: 9.8rem;
+}
+
+.raze{
+  padding-left: 9rem;
+}
+.sage{
+  padding-left: 8rem;
+}
+.viper{
+  padding-left: 10.5rem;
+}
+.breach{
+  padding-left: 11.5rem;
+}
+.cypher{
+  padding-left: 7rem;
+}
+
+/* drugi red */
+.donjired{
+  padding-top: 24rem;
+  
+}
+.phoenix{
+  padding-left: 16rem;
+}
+.reyna{
+  padding-left: 7.5rem;
+}
+.sova{
+  padding-left: 9rem;
+}
+.jett{
+  padding-left: 12.5rem;
+}
+.brimstone{
+  padding-left: 9.5rem;
+}
+.killjoy{
+  padding-left: 5.5rem;
+}
+
+
+
+
+  
+  
+  
+  
+  
+  
